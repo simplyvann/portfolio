@@ -1,8 +1,61 @@
-/*Correct old browser behavour*/
-header, section, footer, aside, nav, main, article, figure {
+/*Correct old browser behaviour*/
+header, section, footer, aside, nav, main, article, figure 
+{
     display: block; 
 }
 
-body{
+body
+{
+	margin:0;
 	background-color:rgb(251,248,204);
+}
+
+section.scroll{
+	height:1000vh;
+	width:100%;
+}
+
+section.intro_1
+{
+	top:0px;
+	position:fixed;
+	width:100%;
+	height:auto;
+	overflow:visible;
+}
+
+div.intro_content
+{
+	position:static;
+	float:left;
+	width:100%;
+	height:100vh;
+}
+
+div.diag_end
+{
+	position:static;
+	float:left;
+	width: 0%;
+	height: 0px;
+	border-bottom: 100px solid transparent;
+	border-right-width: 100vw;
+	border-right-style: solid;
+	content:"";
+	z-index:5;
+}
+
+title.title1
+{
+
+}
+
+/*Colors*/
+
+.light_blue{
+	background-color:rgb(118,201,180);
+}
+
+.light_blue_diag{
+	border-right-color:rgb(118,201,180);
 }
