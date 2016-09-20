@@ -1,0 +1,8 @@
+/*Correct old browser behavour*/
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+
+body{
+	background-color:rgb(251,248,204);
+}
